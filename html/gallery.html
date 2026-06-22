@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>McLaren — Gallery</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Racing+Sans+One:regular"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../Styling/MclarenStyle.css" />
+    <link rel="stylesheet" href="../Styling/gallery.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="logo">McLaren</div>
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="../index.html" class="nav-link" target="_blank">Home</a>
+          </li>
+          <li>
+            <a href="../html/models.html" class="nav-link" target="_blank"
+              >Models</a
+            >
+          </li>
+          <li>
+            <a href="../html/performance.html" class="nav-link" target="_blank"
+              >Performance</a
+            >
+          </li>
+          <li>
+            <a
+              href="../html/gallery.html"
+              class="nav-link active"
+              target="_blank"
+              >Gallery</a
+            >
+          </li>
+          <li>
+            <a href="../html/about.html" class="nav-link" target="_blank"
+              >About</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- CONTACT BUTTON -->
+      <div class="nav-buttons">
+        <a href="../html/contact.html" class="contact-btn" target="_blank"
+          >Contact</a
+        >
+        <a href="../html/singUp.html" class="sign-up-btn" target="_blank"
+          >Sign up</a
+        >
+      </div>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="mobile-menu">☰</label>
+    </header>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div>
+        <p class="page-hero-eyebrow">Visual Showcase</p>
+        <h1>Gallery</h1>
+      </div>
+      <div class="page-hero-right">
+        <p>
+          Every angle of every McLaren is designed with intention. Browse the
+          full collection — on track, on road, in detail.
+        </p>
+        <span class="photo-count">20 Photos Across 5 Models</span>
+      </div>
+    </section>
+
+    <!-- FILTER BAR -->
+    <div class="filter-bar">
+      <button class="filter-btn active">All</button>
+      <button class="filter-btn">720S Spider</button>
+      <button class="filter-btn">GT</button>
+      <button class="filter-btn">Artura</button>
+      <button class="filter-btn">P1</button>
+      <button class="filter-btn">On Track</button>
+      <button class="filter-btn">Detail Shots</button>
+    </div>
+
+    <!-- GALLERY -->
+    <section class="gallery-main">
+      <!-- Full-width hero image -->
+      <div class="gallery-hero-img">
+        <img src="../cars/mclaren-4.jpeg" alt="McLaren 720S Spider" />
+        <div class="img-overlay">
+          <div class="img-label">720S Spider</div>
+          <div class="img-model">Super Series</div>
+        </div>
+      </div>
+
+      <!-- Row: 3 equal -->
+      <div class="gallery-grid-3">
+        <div class="gallery-item gallery-item--std">
+          <img src="../cars/mclaren-2.jpg" alt="McLaren Artura" />
+          <div class="img-overlay">
+            <div class="img-label">Artura</div>
+            <div class="img-model">Sports Series</div>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--std">
+          <img src="../cars/mclaren-3.jpeg" alt="McLaren GT" />
+          <div class="img-overlay">
+            <div class="img-label">McLaren GT</div>
+            <div class="img-model">Grand Tourer</div>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--std">
+          <img src="../cars/mclaren-5.jpeg" alt="McLaren P1" />
+          <div class="img-overlay">
+            <div class="img-label">McLaren P1</div>
+            <div class="img-model">Ultimate Series</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row: wide left, narrow right -->
+      <div class="gallery-grid-2">
+        <div class="gallery-item gallery-item--wide">
+          <img src="../cars/mclaren-1.jpg" alt="McLaren on track" />
+          <div class="img-overlay">
+            <div class="img-label">On Track</div>
+            <div class="img-model">Circuit Edition</div>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--wide">
+          <img src="../cars/mclaren-5.jpeg" alt="McLaren P1 detail" />
+          <div class="img-overlay">
+            <div class="img-label">P1 — Detail</div>
+            <div class="img-model">Ultimate Series</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row: narrow left, wide right -->
+      <div class="gallery-grid-2-rev">
+        <div class="gallery-item gallery-item--wide">
+          <img src="../cars/mclaren-3.jpeg" alt="GT interior" />
+          <div class="img-overlay">
+            <div class="img-label">GT — Interior</div>
+            <div class="img-model">Grand Tourer</div>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--wide">
+          <img src="../cars/mclaren-2.jpg" alt="Artura side profile" />
+          <div class="img-overlay">
+            <div class="img-label">Artura — Profile</div>
+            <div class="img-model">Sports Series</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row: 3 equal tall -->
+      <div class="gallery-grid-3">
+        <div class="gallery-item gallery-item--tall">
+          <img src="../cars/mclaren-4.jpeg" alt="720S front" />
+          <div class="img-overlay">
+            <div class="img-label">720S — Front</div>
+            <div class="img-model">Super Series</div>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--tall">
+          <img src="../cars/mclaren-1.jpg" alt="McLaren rear" />
+          <div class="img-overlay">
+            <div class="img-label">Rear Diffuser</div>
+            <div class="img-model">Active Aero</div>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--tall">
+          <img src="../cars/mclaren-5.jpeg" alt="P1 rear wing" />
+          <div class="img-overlay">
+            <div class="img-label">P1 — Wing</div>
+            <div class="img-model">Ultimate Series</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+      <!-- onclick="closeLightbox()"> -->
+      <span class="lightbox-close">✕</span>
+      <img class="lightbox-img" id="lightbox-img" src="" alt="" />
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <!-- FOOTER MINI -->
+    <footer class="footer-mini">
+      <span>© 2024 McLaren Automotive Limited.</span>
+      <div class="footer-mini-links">
+        <a href="#">Privacy</a>
+        <a href="#">Cookies</a>
+        <a href="#">Terms</a>
+      </div>
+    </footer>
+  </body>
+</html>
+=======
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>McLaren — Gallery</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Racing+Sans+One:regular"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../Styling/MclarenStyle.css" />
+    <link rel="stylesheet" href="../Styling/gallery.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="logo">McLaren</div>
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="../html/index.html" class="nav-link" target="_blank"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="../html/models.html" class="nav-link" target="_blank"
+              >Models</a
+            >
+          </li>
+          <li>
+            <a href="../html/performance.html" class="nav-link" target="_blank"
+              >Performance</a
+            >
+          </li>
+          <li>
+            <a
+              href="../html/gallery.html"
+              class="nav-link active"
+              target="_blank"
+              >Gallery</a
+            >
+          </li>
+          <li>
+            <a href="about.html" class="nav-link" target="_blank">About</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- CONTACT BUTTON -->
+      <div class="nav-buttons">
+        <a href="../html/contact.html" class="contact-btn" target="_blank"
+          >Contact</a
+        >
+        <a href="../html/singUp.html" class="sign-up-btn" target="_blank"
+          >Sign up</a
+        >
+      </div>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="mobile-menu">☰</label>
+    </header>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div>
+        <p class="page-hero-eyebrow">Visual Showcase</p>
+        <h1>Gallery</h1>
+      </div>
+      <div class="page-hero-right">
+        <p>
+          Every angle of every McLaren is designed with intention. Browse the
+          full collection — on track, on road, in detail.
+        </p>
+        <span class="photo-count">20 Photos Across 5 Models</span>
+      </div>
+    </section>
+
+    <!-- FILTER BAR -->
+    <div class="filter-bar">
+      <button class="filter-btn active">All</button>
+      <button class="filter-btn">720S Spider</button>
+      <button class="filter-btn">GT</button>
+      <button class="filter-btn">Artura</button>
+      <button class="filter-btn">P1</button>
+      <button class="filter-btn">On Track</button>
+      <button class="filter-btn">Detail Shots</button>
+    </div>
+
+    <!-- GALLERY -->
+    <section class="gallery-main">
+      <!-- Full-width hero image -->
+      <div class="gallery-hero-img">
+        <img src="../cars/mclaren-4.jpeg" alt="McLaren 720S Spider" />
+        <div class="img-overlay">
+          <div class="img-label">720S Spider</div>
+          <div class="img-model">Super Series</div>
+        </div>
+      </div>
+
+      <!-- Row: 3 equal -->
+      <div class="gallery-grid-3">
+        <div class="gallery-item gallery-item--std">
+          <img src="../cars/mclaren-2.jpg" alt="McLaren Artura" />
+          <div class="img-overlay">
+            <div class="img-label">Artura</div>
+            <div class="img-model">Sports Series</div>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--std">
+          <img src="../cars/mclaren-3.jpeg" alt="McLaren GT" />
+          <div class="img-overlay">
+            <div class="img-label">McLaren GT</div>
+            <div class="img-model">Grand Tourer</div>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--std">
+          <img src="../cars/mclaren-5.jpeg" alt="McLaren P1" />
+          <div class="img-overlay">
+            <div class="img-label">McLaren P1</div>
+            <div class="img-model">Ultimate Series</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row: wide left, narrow right -->
+      <div class="gallery-grid-2">
+        <div class="gallery-item gallery-item--wide">
+          <img src="../cars/mclaren-1.jpg" alt="McLaren on track" />
+          <div class="img-overlay">
+            <div class="img-label">On Track</div>
+            <div class="img-model">Circuit Edition</div>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--wide">
+          <img src="../cars/mclaren-5.jpeg" alt="McLaren P1 detail" />
+          <div class="img-overlay">
+            <div class="img-label">P1 — Detail</div>
+            <div class="img-model">Ultimate Series</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row: narrow left, wide right -->
+      <div class="gallery-grid-2-rev">
+        <div class="gallery-item gallery-item--wide">
+          <img src="../cars/mclaren-3.jpeg" alt="GT interior" />
+          <div class="img-overlay">
+            <div class="img-label">GT — Interior</div>
+            <div class="img-model">Grand Tourer</div>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--wide">
+          <img src="../cars/mclaren-2.jpg" alt="Artura side profile" />
+          <div class="img-overlay">
+            <div class="img-label">Artura — Profile</div>
+            <div class="img-model">Sports Series</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row: 3 equal tall -->
+      <div class="gallery-grid-3">
+        <div class="gallery-item gallery-item--tall">
+          <img src="../cars/mclaren-4.jpeg" alt="720S front" />
+          <div class="img-overlay">
+            <div class="img-label">720S — Front</div>
+            <div class="img-model">Super Series</div>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--tall">
+          <img src="../cars/mclaren-1.jpg" alt="McLaren rear" />
+          <div class="img-overlay">
+            <div class="img-label">Rear Diffuser</div>
+            <div class="img-model">Active Aero</div>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--tall">
+          <img src="../cars/mclaren-5.jpeg" alt="P1 rear wing" />
+          <div class="img-overlay">
+            <div class="img-label">P1 — Wing</div>
+            <div class="img-model">Ultimate Series</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+      <!-- onclick="closeLightbox()"> -->
+      <span class="lightbox-close">✕</span>
+      <img class="lightbox-img" id="lightbox-img" src="" alt="" />
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <!-- FOOTER MINI -->
+    <footer class="footer-mini">
+      <span>© 2024 McLaren Automotive Limited.</span>
+      <div class="footer-mini-links">
+        <a href="#">Privacy</a>
+        <a href="#">Cookies</a>
+        <a href="#">Terms</a>
+      </div>
+    </footer>
+  </body>
+</html>
+>>>>>>> 9bc88e458072dd66eef77fd73f21625708e20f64

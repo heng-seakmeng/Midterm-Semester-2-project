@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>McLaren — Contact</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Racing+Sans+One:regular"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../Styling/MclarenStyle.css" />
+    <link rel="stylesheet" href="../Styling/contact.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="logo">McLaren</div>
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="../index.html" class="nav-link" target="_blank">Home</a>
+          </li>
+          <li>
+            <a href="../html/models.html" class="nav-link" target="_blank"
+              >Models</a
+            >
+          </li>
+          <li>
+            <a href="../html/performance.html" class="nav-link" target="_blank"
+              >Performance</a
+            >
+          </li>
+          <li>
+            <a href="../html/gallery.html" class="nav-link" target="_blank"
+              >Gallery</a
+            >
+          </li>
+          <li>
+            <a href="../html/about.html" class="nav-link" target="_blank"
+              >About</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="nav-buttons">
+        <a href="../html/contact.html" class="contact-btn" target="_blank"
+          >Contact</a
+        >
+        <a href="../html/singUp.html" class="sign-up-btn" target="_blank"
+          >Sign up</a
+        >
+      </div>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="mobile-menu">☰</label>
+    </header>
+
+    <!-- PAGE HERO -->
+    <section class="contact-hero">
+      <p class="contact-eyebrow">Get In Touch</p>
+      <h1>Let's Talk</h1>
+      <p class="contact-sub">
+        Questions about a model, a retailer, or your next McLaren — our team is
+        ready to help.
+      </p>
+    </section>
+
+    <!-- CONTACT MAIN -->
+    <section class="contact-main">
+      <!-- LEFT: FORM -->
+      <div class="contact-form-wrap">
+        <h2>Send a Message</h2>
+        <form class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                placeholder="Heng"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                placeholder="Seakmeng"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="hengseakmeng100percent@gmail.com"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+885 123456789"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="general">General Inquiry</option>
+              <option value="sales">Sales</option>
+              <option value="service">Service & Support</option>
+              <option value="press">Press</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Tell us how we can help..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="contact-submit-btn">Send Message</button>
+        </form>
+      </div>
+
+      <!-- RIGHT: INFO -->
+      <div class="contact-info-wrap">
+        <div class="contact-info-card">
+          <div class="contact-info-icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <h3>Phone</h3>
+          <p>+1 (800) 555-0199</p>
+          <span class="contact-info-note">Mon–Fri, 9am–6pm GMT</span>
+        </div>
+
+        <div class="contact-info-card">
+          <div class="contact-info-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <h3>Email</h3>
+          <p>hello@mclaren.com</p>
+          <span class="contact-info-note">We reply within 24 hours</span>
+        </div>
+
+        <div class="contact-info-card">
+          <div class="contact-info-icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <h3>Headquarters</h3>
+          <p>McLaren Technology Centre<br />Woking, Surrey, UK</p>
+          <span class="contact-info-note">By appointment only</span>
+        </div>
+
+        <div class="contact-info-socials">
+          <h4>Follow Us</h4>
+          <div class="contact-social-links">
+            <a href="#" aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="YouTube"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+            <a href="#" aria-label="Twitter/X"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="#" aria-label="Facebook"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER MINI -->
+    <footer class="footer-mini">
+      <span>© 2024 McLaren Automotive Limited.</span>
+      <div class="footer-mini-links">
+        <a href="#">Privacy</a>
+        <a href="#">Cookies</a>
+        <a href="#">Terms</a>
+      </div>
+    </footer>
+
+    <script src="../Script/Mclaren.js"></script>
+  </body>
+</html>
